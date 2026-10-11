@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int t;
+ scanf("%d", &t);
+ for(int i=0; i<t; i++)
+ { 
+    long long n;
+    scanf("%lld", &n);
+    if(n<=2)
+    {
+        printf("0\n");
+    }
+    else
+    {
+        printf("%lld\n",(n-1)/2);
+    }
+}
+    return 0;
+}
